@@ -40,11 +40,9 @@ For this assignment, you will be learning to get familiar with the normal ways o
 **[Part Eight: Commit and Submit](#part-eight-commit-and-submit)**<br>
 
 ## Files to complete:
-**bin** - The folder that includes the starter code on starting server with the port number <br>
-**node_modules** - The library for all of the npm packages. <br>
-**public** - The public folder where the page elements like stylesheet, in page javascripts, and images can go to <br>
-**views** - The folder that contains your front-end engine <br>
-**app.js** - The express app setup file <br>
+**app.jd** - The express app setup <br>
+**index.js** - The index router with four different routes <br>
+**views** - The folder that contains your front-end engine there are four files in total needed <br>
 
 ## Part One: Get Started
 You should import it to your IDE of choice WebStorm recommended. 
