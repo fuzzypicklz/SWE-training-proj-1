@@ -1,4 +1,4 @@
-# Programming Assignment 0 - NPM Starter
+# Programming Assignment 1 - Express with MYSQL
 
 ## Get & setup the repository(assignment)
 
