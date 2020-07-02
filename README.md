@@ -25,6 +25,8 @@ To check everything worked well, go to localhost:3000 to check if you see the we
 1. run: `node www` to run the server file
 2. put: `localhost:3000` in the browser and check if you see web app works.
 
+#### Note: for this project, it will not work until you set up the mysql configuration.
+
 ## Overview
 For this assignment, you will be learning to get familiar with the normal ways of how to use an express app with a frontend view engine.(in this case, embeded javascript)
 
