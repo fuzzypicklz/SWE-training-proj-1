@@ -30,6 +30,9 @@ To check everything worked well, go to localhost:3000 to check if you see the we
 ## Overview
 For this assignment, you will be learning to get familiar with the normal ways of how to use an express app with a frontend view engine.(in this case, embeded javascript)
 
+### Important: 
+In the server database, I created two databases yuichi and bryce, you should use the one
+that is your name in the project.
 ### Table of Contents
 **[Files to complete](#files-to-complete)**<br>
 **[Part One: Get Started](#part-one-get-started)**<br>
@@ -63,9 +66,17 @@ By default, your project should have no errors and contain the following root it
 Please seek help from me or any course staffs if you are missing any of these files
 
 ## Part Two: Attach Mysql
+
+First briefly read through the entire project description,and think abouthow many tables
+you need for completing this project, also think about what fields goes into each of these
+tables. After that, in your own database, make the tables you need using the `CREATE TABLE tableName ()`
+command to create the necessary tables and fields along with it. NOTICE: you should name
+the tables in the most meaningful way. 
+
 Look into `app.js` file the mysql connection was already done for you! All you have to do is to fill in the username of your localhost mysql account, the password, and the database your tables are stored in.
 
 To check if the your configuration was successful, run the web app, if you got `connecting success` that means the connection to mysql was successful, otherwise play around with the database configuration JSON until you got it correct. 
+
 
 ## Part Three: Make the Login System
 #### This part of the program will not be graded on prettiness
