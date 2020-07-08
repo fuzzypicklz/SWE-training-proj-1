@@ -66,7 +66,6 @@ By default, your project should have no errors and contain the following root it
 Please seek help from me or any course staffs if you are missing any of these files
 
 ## Part Two: Attach Mysql
-
 First briefly read through the entire project description,and think abouthow many tables
 you need for completing this project, also think about what fields goes into each of these
 tables. After that, in your own database, make the tables you need using the `CREATE TABLE tableName ()`
