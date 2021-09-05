@@ -66,13 +66,21 @@ By default, your project should have no errors and contain the following root it
 Please seek help from me or any course staffs if you are missing any of these files
 
 ## Part Two: Attach Mysql
-First briefly read through the entire project description,and think abouthow many tables
+First briefly read through the entire project description,and think about how many tables
 you need for completing this project, also think about what fields goes into each of these
 tables. After that, in your own database, make the tables you need using the `CREATE TABLE tableName ()`
 command to create the necessary tables and fields along with it. NOTICE: you should name
 the tables in the most meaningful way. 
 
 Look into `app.js` file the mysql connection was already done for you! All you have to do is to fill in the username of your localhost mysql account, the password, and the database your tables are stored in.
+Here are the mysql information: fill it in in `app.js`
+```
+HOST=pvnet-testing.cjdmtmc8kuwg.us-west-1.rds.amazonaws.com
+DATAPORT=3306
+DATAUSER=pvnetuser
+PASSWORD=CDy21xM8c9NA
+DATABASE=nicole
+```
 
 To check if the your configuration was successful, run the web app, if you got `connecting success` that means the connection to mysql was successful, otherwise play around with the database configuration JSON until you got it correct. 
 

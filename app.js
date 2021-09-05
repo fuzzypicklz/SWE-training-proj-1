@@ -7,27 +7,25 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
-var mysqlssh = require('mysql-ssh');
-var fs = require('fs');
-let con;
+var mysql = require('mysql');
+
 //TODO: fill in the following info
-mysqlssh.connect(
-    {
-        host: '',
-        user: '',
-        privateKey: fs.readFileSync('')
-    },
-    {
-        host:'localhost',
-        user: '',
-        password: '',
-        database: ''
+var con = mysql.createConnection({
+    host: "",
+    port:"",
+    user: "",
+    password: "",
+    database: ""
+});
+
+con.connect(function(err) {
+    if (err) {
+        console.log('connecting error');
+        return;
     }
-).then(client => {
-    console.log("connecting success");
-        con = client;
-    }
-);
+    console.log('connecting success');
+});
+
 
 var app = express();
 
