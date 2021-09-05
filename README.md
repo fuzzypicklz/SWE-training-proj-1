@@ -31,7 +31,7 @@ To check everything worked well, go to localhost:3000 to check if you see the we
 For this assignment, you will be learning to get familiar with the normal ways of how to use an express app with a frontend view engine.(in this case, embeded javascript)
 
 ### Important: 
-In the server database, I created two databases yuichi and bryce, you should use the one
+In the server database, I created one database called nicole, you should use the one
 that is your name in the project.
 ### Table of Contents
 **[Files to complete](#files-to-complete)**<br>
