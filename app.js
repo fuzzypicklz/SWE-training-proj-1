@@ -8,14 +8,16 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var mysql = require('mysql');
+var express = require('express');
+var app = express();
 
 //TODO: fill in the following info
 var con = mysql.createConnection({
-    host: "",
-    port:"",
-    user: "",
-    password: "",
-    database: ""
+    host: "pvnet-testing.cjdmtmc8kuwg.us-west-1.rds.amazonaws.com",
+    port: "3306",
+    user: "pvnetuser",
+    password: "CDy21xM8c9NA",
+    database: "jerry"
 });
 
 con.connect(function(err) {
